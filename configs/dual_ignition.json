@@ -1,0 +1,30 @@
+{
+  "name": "Dual Ignition Meeting",
+  "description": "Two flames start from opposite sides and meet in the middle",
+  "ring": {
+    "num_segments": 20,
+    "radius": 1.5
+  },
+  "flame_properties": {
+    "temperature": 900.0,
+    "propagation_speed": 1.2,
+    "fuel_consumption_rate": 0.08,
+    "ignition_temperature": 180.0
+  },
+  "fuel_distribution": {
+    "type": "uniform",
+    "level": 0.9
+  },
+  "ignition": {
+    "points": [
+      0,
+      10
+    ]
+  },
+  "simulation": {
+    "duration": 8.0,
+    "time_step": 0.1,
+    "show_visualization": true,
+    "update_interval": 15
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Fuel Gradient Challenge",
+  "description": "Varying fuel density creates interesting propagation patterns",
+  "ring": {
+    "num_segments": 24,
+    "radius": 2.0
+  },
+  "flame_properties": {
+    "temperature": 750.0,
+    "propagation_speed": 0.8,
+    "fuel_consumption_rate": 0.12,
+    "ignition_temperature": 220.0
+  },
+  "fuel_distribution": {
+    "type": "gradient",
+    "base_level": 0.5,
+    "amplitude": 0.4,
+    "frequency": 2.0
+  },
+  "ignition": {
+    "points": [
+      6
+    ]
+  },
+  "simulation": {
+    "duration": 15.0,
+    "time_step": 0.1,
+    "show_visualization": true,
+    "update_interval": 20
+  }
+}

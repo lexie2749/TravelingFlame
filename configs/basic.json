@@ -1,0 +1,29 @@
+{
+  "name": "Basic Ring Propagation",
+  "description": "Simple flame propagation around a uniform ring",
+  "ring": {
+    "num_segments": 16,
+    "radius": 1.0
+  },
+  "flame_properties": {
+    "temperature": 800.0,
+    "propagation_speed": 1.0,
+    "fuel_consumption_rate": 0.1,
+    "ignition_temperature": 200.0
+  },
+  "fuel_distribution": {
+    "type": "uniform",
+    "level": 0.8
+  },
+  "ignition": {
+    "points": [
+      0
+    ]
+  },
+  "simulation": {
+    "duration": 10.0,
+    "time_step": 0.1,
+    "show_visualization": true,
+    "update_interval": 10
+  }
+}
